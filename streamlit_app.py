@@ -113,7 +113,7 @@ st.markdown(f"### 🏆 최종 점수: {st.session_state.score} / 100")
 if st.session_state.score == 100:
     praise = " 最高ですね！"
 elif st.session_state.score >= 95:
-    praise = " すばらしい！"
+    praise = " すごい！"
 elif st.session_state.score >= 90:
     praise = " よくできました！"
 elif st.session_state.score >= 60:
